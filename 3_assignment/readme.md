@@ -20,17 +20,3 @@ To use the script, follow these steps:
     - If an argument is provided in the format of Xhrs (e.g., 10hrs), the script will clean out audio files older than X hours.
 
 3. Review the output to ensure audio files are cleaned out as expected.
-
-## Log File
-
-The script generates a log file named `deleted-files-<date>-<month>-<year>.log`, which contains the following information for each deleted audio file:
-
-- Name of the audio file
-- Time of creation of the audio file (ISO Format)
-- Time of deletion of the audio file (ISO Format)
-
-## Example
-
-A sample command with an argument to clean audio files older than 10 hours:
-```bash
-./clean_audio_data.sh 10hrs
